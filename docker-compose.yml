@@ -26,6 +26,8 @@ services:
       - ./config/synapse:/data
     networks:
       - matrix
+    expose:
+      - "8008"   # HTTP client API for nginx-front
 
   element-web:
     image: vectorim/element-web:v1.12.6
@@ -35,6 +37,8 @@ services:
       - synapse
     networks:
       - matrix
+    expose:
+      - "80"     # HTTP for nginx-front
     volumes:
       - ./config/element/config.json:/app/config.json:ro
       - ./config/element/assets:/app/assets:ro
@@ -49,7 +53,7 @@ services:
     networks:
       - matrix
     ports:
-      - "80:80"        # besson.chat:80 → nginx
+      - "8080:80"        # host:8080 → internal nginx on 80
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
       - ./nginx/html:/usr/share/nginx/html:ro
