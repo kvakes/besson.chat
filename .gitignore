@@ -1,3 +1,5 @@
 .DS_Store
 nginx/html/downloads/*
-data/postgres
+!nginx/html/downloads/.gitkeep
+data/postgres/*
+!data/postgres/.gitkeep
