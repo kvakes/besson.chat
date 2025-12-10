@@ -1,0 +1,1 @@
+Run `./download-element-apps.sh` after cloning.
