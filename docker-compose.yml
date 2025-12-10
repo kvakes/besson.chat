@@ -53,7 +53,7 @@ services:
     networks:
       - matrix
     ports:
-      - "8080:80"        # host:8080 → internal nginx on 80
+      - "18080:80"        # host:8080 → internal nginx on 80
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
       - ./nginx/html:/usr/share/nginx/html:ro
