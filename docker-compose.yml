@@ -20,7 +20,7 @@ services:
     depends_on:
       - postgres
     environment:
-      SYNAPSE_SERVER_NAME: matrix.chat
+      SYNAPSE_SERVER_NAME: besson.chat
       SYNAPSE_REPORT_STATS: "no"
     volumes:
       - ./config/synapse:/data
@@ -49,7 +49,7 @@ services:
     networks:
       - matrix
     ports:
-      - "80:80"        # matrix.chat:80 → nginx
+      - "80:80"        # besson.chat:80 → nginx
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
       - ./nginx/html:/usr/share/nginx/html:ro

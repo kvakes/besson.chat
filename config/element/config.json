@@ -1,8 +1,8 @@
 {
   "default_server_config": {
     "m.homeserver": {
-      "base_url": "http://synapse.matrix.chat",
-      "server_name": "matrix.chat"
+      "base_url": "http://synapse.besson.chat",
+      "server_name": "besson.chat"
     }
   },
 
@@ -15,7 +15,7 @@
     "servers": []
   },
 
-  "brand": "Матрица",
+  "brand": "Бессонный Чат",
   "default_theme": "dark",
   "default_locale": "ru",
 
