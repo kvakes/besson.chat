@@ -38,3 +38,13 @@ mkdir config/synapse/media_store
 sudo chown -R 991:991 ./config/synapse
 sudo chmod -R u+rwX ./config/synapse
 ```
+
+# Step 4: add to `/etc/hosts`
+
+```
+127.0.0.1  besson.chat web.besson.chat synapse.besson.chat
+```
+
+# Step 5
+
+`docker compose up -d`
