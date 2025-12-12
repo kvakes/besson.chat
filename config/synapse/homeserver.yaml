@@ -34,6 +34,7 @@ enable_registration: true
 enable_registration_without_verification: true
 log_config: "/data/matrix.chat.log.config"
 media_store_path: /data/media_store
+enable_authenticated_media: false
 registration_shared_secret: "Vaqn#CV2:wmm_CYyCTLqBv+,k-8wN44:lFwAgzWps9+_EI:tsX"
 report_stats: false
 macaroon_secret_key: "ObelvrDCnO6KmE1ZkEBG+N0yGNmtV1b#fPnA&*xv^34Vybltzu"
