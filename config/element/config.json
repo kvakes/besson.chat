@@ -1,8 +1,8 @@
 {
   "default_server_config": {
     "m.homeserver": {
-      "base_url": "http://synapse.besson.chat",
-      "server_name": "besson.chat"
+      "base_url": "https://chat.insomniafest.ru",
+      "server_name": "chat.insomniafest.ru"
     }
   },
 

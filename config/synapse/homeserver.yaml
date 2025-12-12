@@ -9,7 +9,7 @@
 # For more information on how to configure Synapse, including a complete accounting of
 # each option, go to docs/usage/configuration/config_documentation.md or
 # https://element-hq.github.io/synapse/latest/usage/configuration/config_documentation.html
-server_name: "besson.chat"
+server_name: "chat.insomniafest.ru"
 pid_file: /data/homeserver.pid
 listeners:
   - port: 8008
@@ -34,7 +34,6 @@ enable_registration: true
 enable_registration_without_verification: true
 log_config: "/data/matrix.chat.log.config"
 media_store_path: /data/media_store
-enable_authenticated_media: false
 registration_shared_secret: "Vaqn#CV2:wmm_CYyCTLqBv+,k-8wN44:lFwAgzWps9+_EI:tsX"
 report_stats: false
 macaroon_secret_key: "ObelvrDCnO6KmE1ZkEBG+N0yGNmtV1b#fPnA&*xv^34Vybltzu"

@@ -3,4 +3,3 @@ nginx/html/downloads/*
 !nginx/html/downloads/.gitkeep
 data/postgres/*
 !data/postgres/.gitkeep
-config/synapse/media_store/*
